@@ -133,7 +133,7 @@ text-align: center;
   }
 
   #Bienvenue {
-    background: url(../img/salle2flou.jpg)  no-repeat center  fixed;
+    background: url(../img/salle2flou.jpg) fixed;
     -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
@@ -194,7 +194,7 @@ text-align: center;
   }
 
   #Bienvenue {
-    background: url(../img/salle2flou.jpg) no-repeat center fixed !important;
+    background: url(../img/salle2flou.jpg) fixed !important;
     -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
