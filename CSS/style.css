@@ -133,7 +133,7 @@ text-align: center;
   }
 
   #Bienvenue {
-    background: url(../img/salle2flou.jpg) fixed;
+    background: url(../img/salle2flou.jpg)no-repeat fixed;
     -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
