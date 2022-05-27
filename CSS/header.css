@@ -12,7 +12,7 @@
 
 /* desktop mode............/// */
 
-.navbar input[type="checkbox"],
+.navbar input[id="Header"],
 .navbar .hamburger-lines {
   display: none;
 }
@@ -80,7 +80,7 @@
     position: relative;
   }
 
-  .navbar input[type="checkbox"],
+  .navbar input[id="Header"],
   .navbar .hamburger-lines {
     display: none;
   }  
@@ -161,7 +161,7 @@
     height: auto;
   }
 
-  .navbar-container input[type="checkbox"],
+  .navbar-container input[id="Header"],
   .navbar-container .hamburger-lines {
     display: block;
     cursor: pointer;
@@ -173,7 +173,7 @@
     height: 64px;
   }
 
-  .navbar-container input[type="checkbox"] {
+  .navbar-container input[id="Header"] {
     position: absolute;
     display: block;
     height: 32px;
@@ -239,19 +239,19 @@
   }
 
 
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+  .navbar-container input[id="Header"]:checked ~ .menu-items {
     transform: translateX(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  .navbar-container input[id="Header"]:checked ~ .hamburger-lines .line1 {
     transform: rotate(35deg);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  .navbar-container input[id="Header"]:checked ~ .hamburger-lines .line2 {
     transform: scaleY(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  .navbar-container input[id="Header"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-35deg);
   }
 
@@ -292,7 +292,7 @@
       width: 150px;
 
     }
-    .navbar-container input[type="checkbox"],
+    .navbar-container input[id="Header"],
     .navbar-container .hamburger-lines {
       display: block;
       cursor: pointer;
@@ -304,7 +304,7 @@
       height: 64px;
     }
   
-    .navbar-container input[type="checkbox"] {
+    .navbar-container input[id="Header"] {
       position: absolute;
       display: block;
       height: 32px;
@@ -372,19 +372,19 @@
     }
   
   
-    .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+    .navbar-container input[id="Header"]:checked ~ .menu-items {
       transform: translateX(0);
     }
   
-    .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    .navbar-container input[id="Header"]:checked ~ .hamburger-lines .line1 {
       transform: rotate(35deg);
     }
   
-    .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    .navbar-container input[id="Header"]:checked ~ .hamburger-lines .line2 {
       transform: scaleY(0);
     }
   
-    .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    .navbar-container input[id="Header"]:checked ~ .hamburger-lines .line3 {
       transform: rotate(-35deg);
     }
     .menu-items a {
@@ -419,7 +419,7 @@
       right: 0;
   
     }
-    .navbar-container input[type="checkbox"],
+    .navbar-container input[id="Header"],
     .navbar-container .hamburger-lines {
       display: block;
       cursor: pointer;
@@ -431,7 +431,7 @@
       height: 64px;
     }
   
-    .navbar-container input[type="checkbox"] {
+    .navbar-container input[id="Header"] {
       position: absolute;
       display: block;
       height: 32px;
@@ -499,19 +499,19 @@
     }                  
   
   
-    .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+    .navbar-container input[id="Header"]:checked ~ .menu-items {
       transform: translateX(0);
     }
   
-    .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    .navbar-container input[id="Header"]:checked ~ .hamburger-lines .line1 {
       transform: rotate(35deg);
     }
   
-    .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    .navbar-container input[id="Header"]:checked ~ .hamburger-lines .line2 {
       transform: scaleY(0);
     }
   
-    .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    .navbar-container input[id="Header"]:checked ~ .hamburger-lines .line3 {
       transform: rotate(-35deg);
     }
 
