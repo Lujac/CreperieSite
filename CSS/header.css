@@ -525,7 +525,7 @@
     }
     
    } 
-   @media screen and  (min-height: 280px) and (max-height : 540px) {
+   @media screen  and (max-height : 540px) {
 
     .menu-items a {
       display:inline-block;
@@ -541,7 +541,7 @@
       padding-top: 0px;
       background: #78a8d3;
       height: 100vh;
-      max-width: 300px;
+      max-width: 550px;
       flex-wrap: wrap;
       transform: translate(-150%);
       display: flex;
