@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+/* Basic Style */
+html, body 
+
+{
+  
+  padding:0;
+  margin:0;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  display: block;
+  height: auto;
+  background-color: rgb(255, 235, 204);
+  
+}
+
+#FormuleAccueil {
+    background: url(../img/Ardoise.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+    height : 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+    }
+
+#FormuleAccueil h1 {
+
+        width: 750px;
+        font-size : 50px;
+        color: rgb(255, 255, 255);
+        position: relative;
+      
+        }
+#Formule {
+    height: auto;
+    text-align: center;
+}     
+
+#Formule h1 {
+
+    margin: 0;
+    padding: 0;
+}   
+
+#Formule p {
+
+    margin: 0;
+    padding: 0;
+}   
+
+#FormulePhoto {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.box {
+    list-style-type: none;
+    width: 50%;
+  }
+  .box:nth-child(2n + 1) {
+    clear: both;
+    margin-left: 0;
+  }
+  .box:nth-child(2n + 0) {
+    margin-right: 0;
+  }
+  .box a {
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+  .box a img {
+    -webkit-back-visibility: hidden;
+    display: block;
+    width: 200%;
+    height: auto;
+  }
+
+  #LaCarteAccueil {
+
+    background: url(../img/Plats.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+    height : 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+  }
+
+  #LaCarteAccueil h1 {
+
+   
+
+      width: 550px;
+      font-size : 50px;
+      color: rgb(255, 255, 255);
+      position: relative;
+
+
+  }
+
+  #LaCarte {
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+  
+ 
+
+  }
+
+  #LaCarte img {
+
+    height: auto;
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+
+
+  
+  @media screen and  (min-width: 768px) and (max-width: 1322px){
+
+    #FormuleAccueil {
+        background: url(../img/Ardoise.jpg) no-repeat center center scroll;
+        background-attachment: scroll;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+        height : 750px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        
+        }
+    #FormuleAccueil h1 {
+
+            width: 650px;
+            font-size : 40px;
+            color: rgb(255, 255, 255);
+            position: relative;
+          
+            
+          }
+
+          #FormulePhoto  {
+            display: flex;  
+            flex-wrap: wrap;
+            height: auto;
+            width: auto;
+            align-items: center;
+            position: relative;
+            right: 18px;
+          }
+
+          #FormulePhoto  ul{
+            display: flex;  
+            flex-wrap: wrap;
+            height: auto;
+            width: auto;
+            align-items: center;
+            position: relative;
+          }
+
+          #FormulePhoto img  {
+            display: flex;   
+            flex-direction: column;  
+            flex-wrap: wrap;
+  
+          }
+
+          .box {
+            list-style-type: none;
+            width: 95%;  
+            margin: 0;
+            padding: 0;     
+            flex-direction: column;
+            align-items: center;
+            text-align: center;   
+          
+          }
+
+          
+
+          .box a {
+            display: flex;
+            width: 85%;
+            height: auto;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+          }
+
+          .box a img {
+            -webkit-back-visibility: hidden;
+            display: flex;
+            width: 80%;
+            height: auto;      
+
+          }
+
+          #LaCarteAccueil {
+
+            background: url(../img/Plats.jpg) no-repeat center scroll;
+            -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: cover;
+            height : 550px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        
+        
+          }
+
+          #LaCarteAccueil h1 {
+
+   
+
+            width: 550px;
+            font-size : 50px;
+            color: rgb(255, 255, 255);
+            position: relative;
+      
+      
+        }
+  }
+
+  @media screen and  (max-width: 767.98px){
+ 
+
+  
+    #FormuleAccueil {
+        background: url(../img/Ardoise.jpg) no-repeat center center scroll;
+      background-attachment: scroll;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      height : 750px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      
+      
+      }
+  
+  
+    #Formule {
+  
+      font-weight: 500;
+      font-size: 0.75rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #FormuleAccueil h1 {
+  
+      max-width: 600px;
+      width: auto;
+      font-size : 40px;
+      color: rgb(255, 255, 255);
+      position: relative;
+    
+      
+    }
+    
+    #Formule p {
+    
+      font-size: larger;
+      width: 100%;
+      height: auto;
+      
+    }
+    
+    #FormulePhoto  {
+      display: flex;   
+      flex-wrap: wrap;
+      height: auto;
+      width: auto;
+      align-items: center;
+      text-align: center;
+      
+    }
+
+
+    .box {
+      width: auto;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .box:nth-child(2n + 1) {
+      clear: both;
+      margin-left: 0;
+    }
+    .box:nth-child(2n + 0) {
+      margin-right: 0;
+    }
+    .box a {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 80%;
+      height: auto;
+    }
+    .box a img {
+      -webkit-back-visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: auto;
+    }
+
+    #LaCarteAccueil {
+
+      background: url(../img/Plats.jpg) no-repeat center scroll;
+      -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+      height : 550px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  
+  
+    }
+    #LaCarteAccueil h1 {
+
+   
+
+      width: 550px;
+      font-size : 5vh;
+      color: rgb(255, 255, 255);
+      position: relative;
+
+
+  }
+   } 
