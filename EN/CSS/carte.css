@@ -1,0 +1,120 @@
+.MenuNav {
+    opacity: 0.85;
+    height: auto;
+  width: 100%;
+  padding: 0; margin: 0;
+  display: flex;
+
+  }
+.carte-items li {
+    display: inline;
+    list-style: none;
+  }
+  
+
+  .MenuNav-container input[id="MenuCarte"],
+  .MenuNav-container .burger-lines {
+    display: block;
+    cursor: pointer;
+  }
+
+  .MenuNav-container {
+    display: block;
+    position: relative;
+    height: 40px;
+  }
+
+  .MenuNav-container input[id="MenuCarte"] {
+    position: absolute;
+    display: block;
+    height: 23px;
+    width: 30px;
+    top: 10px;
+    left: 10px;
+    z-index: 5;
+    opacity: 0;
+  }
+
+  .MenuNav-container .burger-lines {
+    display: block;
+    height: 23px;
+    width: 35px;
+    position: absolute;
+    top:10px;
+    left: 10px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .MenuNav-container .burger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+  }
+
+  .MenuNav-container .burger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .MenuNav-container .burger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .MenuNav-container .burger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .MenuNav .carte-items {
+    padding-top: 10px;
+    background: #78a8d3;
+    height: auto;
+    width: 100%;
+    transform: translate(-100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 0px;
+    padding-left: 50px;
+    transition: transform 0.5s ease-in-out;
+    margin-block-start: 0;
+   
+  }
+
+  .MenuNav .carte-items li {
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+  }
+
+
+  .MenuNav-container input[id="MenuCarte"]:checked ~ .carte-items {
+    transform: translateX(0);
+  }
+
+  .MenuNav-container input[id="MenuCarte"]:checked ~ .burger-lines .line1 {
+    transform: rotate(35deg);
+  }
+
+  .MenuNav-container input[id="MenuCarte"]:checked ~ .burger-lines .line2 {
+    transform: scaleY(0);
+  }
+
+  .MenuNav-container input[id="MenuCarte"]:checked ~ .burger-lines .line3 {
+    transform: rotate(-35deg);
+  }
+
+  .carte-items a {
+    text-decoration: none;
+    color: rgb(255 255 255);
+    font-weight: 500;
+    margin:15px;
+    transition: color 0.3s ease-in-out;
+    font-size:20px;
+  }
